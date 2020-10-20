@@ -697,16 +697,21 @@ section {
 }
 
 .first{
+  display:flex;
+  flex-wrap: wrap;
   padding:0.5rem;
   justify-content: space-around;
 
 }
 
 .fst .a{
+  display:flex;
   flex: 1;
   text-align: center;
   padding: 1rem;
-  width: auto;
+  border-right: 1px solid white;
+  border-right-width: 1px;
+
 }
 
 .fst .b{
@@ -729,6 +734,7 @@ section {
 }
 
 .item .a {
+  display: flex;
   flex: 1;
   text-align: center;
   padding: 1rem;
