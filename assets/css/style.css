@@ -805,7 +805,6 @@ section {
 
 @media (min-width: 769px) {
   .cta .cta-btn-container {
-    display: flex;
     align-items: center;
     justify-content: flex-end;
   }
