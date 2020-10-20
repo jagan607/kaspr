@@ -697,21 +697,16 @@ section {
 }
 
 .first{
-  display:flex;
   padding:0.5rem;
   justify-content: space-around;
-  
+
 }
 
 .fst .a{
-  display:flex;
   flex: 1;
   text-align: center;
   padding: 1rem;
-  border-right: 1px solid white;
-  border-right-width: 1px;
-  
- 
+  width: auto;
 }
 
 .fst .b{
@@ -730,15 +725,14 @@ section {
 }
 
 .items{
-  display: flex;
   padding: 1rem;
 }
 
 .item .a {
-  display:flex;
   flex: 1;
   text-align: center;
   padding: 1rem;
+  width: auto;
 }
 
 .item .b{
@@ -759,9 +753,8 @@ section {
 .cta .first{
   color:white;
   font-size: 20px;
-  border: 1px white solid;
   padding-left:10px;
-  
+
 }
 
 .cta .item  {
